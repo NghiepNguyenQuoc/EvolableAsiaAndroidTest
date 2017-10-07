@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">Evolable Asia Android Test</string>
+    <string name="app_title">World Map</string>
+    <string name="lost_internet_connection_message">Oops, please check your internet connection</string>
+    <string name="error_unfortunately">Unfortunately the process has stopped, please try again</string>
+
+    <string name="txt_search">Search</string>
+    <string name="txt_no_data">No results found</string>
+    <string name="txt_capital">Capital: %s</string>
+    <string name="txt_population">Population: %s</string>
+    <string name="txt_area">Area: %s</string>
+</resources>

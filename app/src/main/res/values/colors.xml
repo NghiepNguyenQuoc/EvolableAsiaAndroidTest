@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+
+    <color name="cl_black">#000</color>
+    <color name="cl_white">#FFF</color>
+    <color name="cl_blue">#63BDE0</color>
+    <color name="cl_default">#3FB34F</color>
+    <color name="cl_default_trans">#FFF59D</color>
+    <color name="cl_gray_opacity">#E5E5E5</color>
+    <color name="cl_pink">#a864a8</color>
+    <color name="cl_black_opacity">#8000</color>
+    <color name="cl_white_opacity">#8FFF</color>
+</resources>

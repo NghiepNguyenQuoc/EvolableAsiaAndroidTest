@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fitsSystemWindows="true">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/margin_dialog_medium_1"
+        android:background="@color/cl_white_opacity"
+        android:descendantFocusability="blocksDescendants"
+        android:orientation="vertical"
+        android:padding="@dimen/padding_dialog_medium_1">
+
+        <ImageView
+            android:id="@+id/iv_item_coutry_flag"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:gravity="center"
+            android:src="@mipmap/default_flag" />
+
+        <TextView
+            android:id="@+id/tv_item_country_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="@dimen/margin_dialog_medium_1"
+            android:text="Viet Nam"
+            android:textColor="@color/cl_black"
+            android:textSize="@dimen/text_size_display_1"
+            android:textStyle="bold" />
+
+        <android.support.v7.widget.RecyclerView
+            android:id="@+id/rv_item_country_spec_list"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginBottom="@dimen/margin_dialog_medium_1"
+            android:clipToPadding="false" />
+    </LinearLayout>
+</ScrollView>
